@@ -1,0 +1,24 @@
+
+{
+  "homepage": "https://github.com/gdomaradzki/focus-gestor-orcamentos#readme",
+  "_moduleAliases": {
+    "@root": ".",
+    "@XRK": "./services/XRKAPI",
+    "@XRKModels":"./services/XRKAPI/app/models",
+    "@XRKAPI":"./services/XRKAPI/config/app.js",
+    "@config": "./services/XRKAPI/config/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
